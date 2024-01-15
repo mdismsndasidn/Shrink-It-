@@ -20,7 +20,7 @@ header {
 .navbar {
   background-color: #3586ff;
   padding: 0px;
-  width: 110vw;
+  width: 100vw;
   
 
 }
@@ -37,19 +37,20 @@ header {
         display: inline-block;
         text-align: center;
     }
-    footer{
-        margin-bottom: -25%;
-    }
+  .hey{
+    font-size:30px;
+  }
 }
 @media (min-width:600px) {
     .heading{
         margin: 1%;  
     }
+  
 }
 
 footer {
   position: relative;
-  width: 110vw;
+  width: 100vw;
   background: #3586ff;
   min-height: 100px;
   padding: 20px 50px;
@@ -67,7 +68,6 @@ footer {
   margin-bottom: 10px;
  font-size: 1.1em;
  text-align: center;
- margin-right: 10%;
  display: inline;
  width: 40vw;
 }

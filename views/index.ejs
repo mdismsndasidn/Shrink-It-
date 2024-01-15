@@ -1,6 +1,6 @@
 <%- include("partials/header.ejs") %>
-<h1>Hey! Go ahead, type in your URL</h1>
-<div class="container" style="margin-left: 2%;">
+<h1 class='hey'>Hey! Go ahead, type in your URL</h1>
+<div class="container">
   <form action="/Shrink" , method="post">
     <input
       type="url"
@@ -10,7 +10,9 @@
     />
     <button type="submit" style="margin-left: 10px">Shrink it!</button>
   </form>
-  <div class="table-container" >
+  <div class="table-container" style="
+    height: 30vh;
+" >
     <table class="table table-striped table-responsive"  >
       <thead>
         
@@ -24,7 +26,7 @@
         <% Shrinks.forEach(Shrink => { %>
           <tr>
           <td style="
-            max-width: 100px;
+            max-width: 200px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;">

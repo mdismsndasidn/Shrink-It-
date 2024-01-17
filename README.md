@@ -32,7 +32,7 @@ ShrinkIt is a dynamic URL shortening service built with Node.js and Express.js, 
 1. Clone the repo
 
     ```
-    git clone https://github.com/Mehmood-Deshmukh/NoteMingle
+    git clone https://github.com/Mehmood-Deshmukh/Shrink-it-
     ```
 
 2. Install NPM packages
